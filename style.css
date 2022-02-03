@@ -1,0 +1,351 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3FCF7;
+}
+
+.container{
+	width: 86%;
+	margin: 0 auto;
+}
+hr{
+	margin: 20px 0;
+	color: #707070
+	;
+}
+
+header{
+    display: flex;
+	margin: 0 auto;
+}
+
+.logo img{
+    width: 100%;
+	margin-top:10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 2px;
+    padding:0  20px;
+    font-weight: 500;
+    border-radius: 2px;
+	color: #000;
+}
+
+.active a{
+    color: #06C167
+	;
+}
+
+.brand{
+	display: flex;
+	margin: 50px 0;
+}
+
+.brand__details{
+	width: 50%;
+	padding-right: 120px;
+	margin: 30px 0;
+}
+
+.brand__details h2{
+	font-size: 75px;
+	padding-right: 100px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.brand__details p, .benifit__card p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #707070;
+}
+
+.brand__details button, .benigit__details button{
+	color: #fff;
+	font-size: 16px;
+	padding: 18px 20px;
+	background-color: #06C167;
+	margin: 22px 0;
+	border: none;
+}
+
+.brand__image img{
+	margin-top: 150px;
+	padding-right: 40px;
+	
+}
+
+/* Service start */
+
+.Service{
+	display: flex;
+	justify-content: space-around;
+}
+.card{
+	display: flex;
+	margin: 0 20px;
+}
+.card__img{
+	margin: auto 0;
+}
+.card__body{
+	margin: auto 0;
+	padding: 0 30px;
+	line-height: .5rem;
+}
+.card__body h3, p{
+	color: #1D1D1F
+	;
+}
+/* Service end */
+
+
+
+/*  Benifit start */
+.benifit{
+	margin: 100px auto;
+	display: flex;
+	width: 85%;
+}
+
+.benifit__image img{
+	padding: 0 50px;
+}
+
+.benigit__details{
+	margin-top: 70px;
+}
+.benigit__details h6, h2{
+	margin: 10px;
+	padding: 0;
+}
+.benigit__details h2{
+	font-size: 60px;
+	font-weight: 500;
+	padding-right: 100px;
+}
+
+.benigit__details h6{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.benigit__details ul{
+flex-direction: row;
+display: inline-block;
+margin: 30px 0;
+}
+.benigit__details li{
+	line-height: 2rem;
+}
+
+.benifit__cards{
+	display: flex;
+}
+
+.benifit__card{
+	margin-right: 60px;
+	text-align: center;
+	line-height: .8rem;
+}
+
+.benifit__card h3{
+	color: #06C167;
+	font-size: 35px;
+	font-weight: 600;
+}
+/*  Benifit end */
+
+
+/*  Features start */
+
+#features{
+	margin: 150px 0;
+}
+
+.feature{
+	display: flex;
+}
+
+.hading{
+	text-align: center;
+}
+
+.hading h6{
+	margin: 20px 0;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.hading h3{
+	margin: 20px 0;
+	font-size: 60px;
+	font-weight: 500;
+}
+.feature__body{
+	box-sizing: border-box;
+	padding: 40px;
+	border: 1px solid #06C167;
+	
+}
+.feature__body h4{
+	margin: 20px 0;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.feature__body h5{
+	font-size: 16px;
+	font-weight: 400;
+	color: #1D1D1F;
+	
+}
+
+.feature__body button{
+	background-color: #e6f9f0;
+	border: none;
+	color: #06C167;
+}
+
+.feature__body button img{
+	padding-left: 10px;
+}
+
+.feature__image img{
+	width: 100%;
+}
+/*  Features end */
+
+
+.content{	
+	background-image: url(./img/bg-img.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 100px;
+	margin: 100px 0;
+}
+
+.content h2{
+	font-weight: 600;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+}
+.content button{
+	margin-top:40px;
+	padding: 30px;
+	background-color: #06C167;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+/* Product */
+.products{
+	display: flex;
+}
+.product{
+	border: 2px solid #06C167;
+	text-align: center;
+	margin: 20px;
+	padding: 30px;
+}
+
+.product__rating{
+	color: #06C167;
+}
+.product__name{
+	margin: 15px 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+.product__price{
+	margin: 10px 0;
+
+}
+
+.product__btn{
+	border: 2px solid #06C167;
+	padding: 16px;
+	margin-top: 20px;
+
+}
+
+
+
+/* Footer */
+
+footer{
+	margin: 50px 0;
+}
+
+footer p{
+	text-align: center;
+}
+
+.footer{
+	margin: 50px 0;
+	display: flex;
+}
+
+.footer__left{
+	width: 50%;
+	display: flex;
+}
+
+.footer__right{
+	width: 50%;
+	display: flex;
+}
+
+/* Foodies */
+.foodies{
+	width: 65%;
+}
+.foodies h3{
+	color: #06C167;
+}
+.foodies p{
+	text-align: left;
+	margin: 30px 0;
+}
+
+/* About */
+.about, .compamny{
+	width: 33%;
+}
+.about ul, .compamny ul {
+	display: inline-block;
+		line-height: 2rem;
+		padding: 0 0;
+}
+
+
+.intouch{
+	width: 65%;
+}
+
+.intouch  p{
+	text-align: left;
+	margin: 30px 0;
+}
+
+.intouch input{
+	padding: 16px;
+	background-color: #F0F1EC;
+	border: none;
+}
+
+.intouch button{
+	background-color: #06C167;
+	color: #fff;
+	padding: 15px;
+	border: none;
+}
